@@ -1,6 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .main{
-    display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
+}
+
+footer{
+    height: 10vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#like{
+    background: transparent;
+    border: transparent;
+    font-size: 25px;
+}
+#owner{
+    position: relative;
+    bottom: 0;
+    right: 1%;
+    text-align: right;
+    height: 70%;
+}
+
+header{
+    margin: 5px 5px 5px 5px;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
 }
